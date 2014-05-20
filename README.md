@@ -10,7 +10,7 @@ This package simply wraps the initialization of the MongoClient, to get you star
 You can install this package by requiring it in your composer.json.
 
 ```js
-"owlgrin/hive": "dev-master"
+"owlgrin/mongo": "dev-master"
 ```
 
 The add the following service provider in your `app.php` configuration file.
