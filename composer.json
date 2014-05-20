@@ -1,0 +1,21 @@
+{
+    "name": "owlgrin/mongo",
+    "description": "Minimal Mongo Client for Laravel",
+    "authors": [
+        {
+            "name": "Mohit Mamoria",
+            "email": "mohit.mamoria@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/database": "4.1.*",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Owlgrin\\Mongo": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
