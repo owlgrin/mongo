@@ -44,8 +44,8 @@ class Connection extends IlluminateConnection {
 
     /**
      * Helper method to get started with DB facade.
-     * @param  [type] $name [description]
-     * @return [type]       [description]
+     * @param  string $name
+     * @return MongoCollection
      */
     public function collection($name)
     {
@@ -56,7 +56,7 @@ class Connection extends IlluminateConnection {
      * Get a MongoDB collection.
      *
      * @param  string   $name
-     * @return MongoDB
+     * @return MongoCollection
      */
     public function getCollection($name)
     {
