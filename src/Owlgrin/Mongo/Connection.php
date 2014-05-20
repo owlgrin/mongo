@@ -43,6 +43,16 @@ class Connection extends IlluminateConnection {
     }
 
     /**
+     * Helper method to get started with DB facade.
+     * @param  [type] $name [description]
+     * @return [type]       [description]
+     */
+    public function collection($name)
+    {
+        return $this->getCollection($name);
+    }
+
+    /**
      * Get a MongoDB collection.
      *
      * @param  string   $name
