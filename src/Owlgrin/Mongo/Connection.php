@@ -3,6 +3,9 @@
 use MongoClient;
 use Illuminate\Database\Connection as IlluminateConnection;
 
+/**
+ * Connection class
+ */
 class Connection extends IlluminateConnection {
 
     /**
